@@ -1,14 +1,6 @@
-# CEO-Agent
+# NetSuite Agent
 
 ## Overview
-The CEO Agent is the central orchestrator of the NetcoRobo AI ecosystem.
-It is built using Ango framework in Python, with MCP integration for multi-agent communication.
-
-The agent is designed with:
-  - Reasoning: Strategic decision-making and planning
-  - Memory: Session + persistent memory via SQLite
-  - Knowledge Base: Company mission, values, governance rules
-  - Scalable Architecture: Foundation for cloning into CTO, CFO, HR and other specialized agents.
 
 ## Tech Stack
   - Language: Python 3.10+
@@ -43,7 +35,7 @@ Create a .env file in the project root:
 OPENAI_API_KEY=your_openai_key_here
 ```
 
-5. Run the CEO Agent
+5. Run the Agent
 ```bash
 python main.py
 ```
